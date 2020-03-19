@@ -1,0 +1,111 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://AllSkyFree_Skyboxes/AllSky_DemoEnvironment.obj" type="ArrayMesh" id=1]
+
+
+[sub_resource type="VisualShaderNodeColorConstant" id=1]
+output_port_for_preview = 0
+constant = Color( 0.496094, 0.496094, 0.496094, 1 )
+
+[sub_resource type="VisualShader" id=2]
+code = "shader_type spatial;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Color:2
+	vec3 n_out2p0;
+	float n_out2p1;
+	n_out2p0 = vec3(0.496094,0.496094,0.496094);
+	n_out2p1 = 1.000000;
+
+// Output:0
+	ALBEDO = n_out2p0;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( 28.08, 12.75 )
+nodes/fragment/0/position = Vector2( 1600, 80 )
+nodes/fragment/2/node = SubResource( 1 )
+nodes/fragment/2/position = Vector2( 920, 120 )
+nodes/fragment/connections = PoolIntArray( 2, 0, 0, 0 )
+
+[sub_resource type="ShaderMaterial" id=3]
+shader = SubResource( 2 )
+
+[sub_resource type="VisualShaderNodeColorConstant" id=4]
+
+[sub_resource type="VisualShaderNodeScalarConstant" id=5]
+constant = 1.0
+
+[sub_resource type="VisualShaderNodeScalarConstant" id=6]
+
+[sub_resource type="VisualShader" id=7]
+code = "shader_type spatial;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Color:2
+	vec3 n_out2p0;
+	float n_out2p1;
+	n_out2p0 = vec3(1.000000,1.000000,1.000000);
+	n_out2p1 = 1.000000;
+
+// Scalar:3
+	float n_out3p0;
+	n_out3p0 = 1.000000;
+
+// Scalar:4
+	float n_out4p0;
+	n_out4p0 = 0.000000;
+
+// Output:0
+	ALBEDO = n_out2p0;
+	METALLIC = n_out3p0;
+	ROUGHNESS = n_out4p0;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( 130.02, -22.71 )
+nodes/fragment/0/position = Vector2( 1360, 40 )
+nodes/fragment/2/node = SubResource( 4 )
+nodes/fragment/2/position = Vector2( 620, 220 )
+nodes/fragment/3/node = SubResource( 5 )
+nodes/fragment/3/position = Vector2( 520, 460 )
+nodes/fragment/4/node = SubResource( 6 )
+nodes/fragment/4/position = Vector2( 520, 600 )
+nodes/fragment/connections = PoolIntArray( 2, 0, 0, 0, 3, 0, 0, 2, 4, 0, 0, 3 )
+nodes/light/0/position = Vector2( 740, 140 )
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = SubResource( 7 )
+
+[node name="AllSkyFree_DemoLandscape" type="Spatial"]
+
+[node name="AllSky_DemoEnvironment" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 188.305 )
+mesh = ExtResource( 1 )
+material/0 = SubResource( 3 )
+material/1 = SubResource( 8 )
+

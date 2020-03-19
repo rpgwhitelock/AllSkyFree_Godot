@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://AllSkyFree_Skyboxes/Epic_BlueSunset_EquiRect_flat.png" type="Texture" id=1]
+[ext_resource path="res://AllSkyFree_DemoLandsacpe.tscn" type="PackedScene" id=2]
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_energy = 0.67
+fog_enabled = true
+fog_color = Color( 0.305882, 0.372549, 0.52549, 1 )
+fog_sun_color = Color( 0.901961, 0.803922, 0.752941, 1 )
+fog_sun_amount = 1.0
+fog_depth_begin = 98.8
+fog_depth_end = 1444.5
+fog_depth_curve = 0.466516
+fog_transmit_enabled = true
+fog_transmit_curve = 0.659754
+fog_height_enabled = true
+fog_height_min = 148.2
+fog_height_max = -48.0
+fog_height_curve = 4.59481
+ssao_radius = 8.1
+ssao_intensity = 4.3
+ssao_radius2 = 40.7
+ssao_intensity2 = 14.6
+ssao_bias = 0.059
+ssao_color = Color( 0.180392, 0.207843, 0.25098, 1 )
+glow_enabled = true
+glow_intensity = 1.86
+glow_strength = 0.87
+glow_bloom = 0.02
+glow_hdr_threshold = 0.44
+glow_bicubic_upscale = true
+
+[node name="AllSkyFree_Sky_EpicBlueSky" type="Node"]
+
+[node name="WorldEnvironment_EpicBlueSky" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="DirectionalLight_EpicBlueSky" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.849579, 0.527461, 0, -0.527461, 0.849579, 0, 26.5368, 0 )
+light_color = Color( 1, 0.924276, 0.869018, 1 )
+light_specular = 1.0
+shadow_enabled = true
+
+[node name="AllSkyFree_DemoLandscape" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05829, -1.54366, -27.2202 )
+

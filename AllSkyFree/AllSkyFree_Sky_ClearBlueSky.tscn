@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://AllSkyFree_Skyboxes/Sky_Day_BlueSky_Equirect.png" type="Texture" id=1]
+[ext_resource path="res://AllSkyFree_DemoLandsacpe.tscn" type="PackedScene" id=2]
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_energy = 0.99
+fog_enabled = true
+fog_color = Color( 0.309804, 0.690196, 0.945098, 1 )
+fog_sun_color = Color( 0.847059, 0.823529, 0.796078, 1 )
+fog_sun_amount = 1.0
+fog_depth_begin = 0.0
+fog_depth_end = 2592.6
+fog_depth_curve = 2.0
+fog_height_min = 197.6
+fog_height_max = -171.5
+ssao_radius = 8.1
+ssao_intensity = 4.3
+ssao_radius2 = 40.7
+ssao_intensity2 = 14.6
+ssao_bias = 0.059
+ssao_color = Color( 0.180392, 0.207843, 0.25098, 1 )
+glow_enabled = true
+glow_intensity = 1.86
+glow_strength = 0.87
+glow_bloom = 0.02
+glow_hdr_threshold = 0.44
+glow_bicubic_upscale = true
+
+[node name="AllSkyFree_Sky_ClearBlueSky" type="Node"]
+
+[node name="WorldEnvironment_ClearBlueSky" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="DirectionalLight_ClearBlueSky" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.603013, 0.797731, 0, -0.797731, 0.603013, 0, 26.5368, 0 )
+light_color = Color( 1, 0.980392, 0.968627, 1 )
+light_energy = 1.04
+light_specular = 1.0
+shadow_enabled = true
+
+[node name="AllSkyFree_DemoLandscape" parent="." instance=ExtResource( 2 )]
+

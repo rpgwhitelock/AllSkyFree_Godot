@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/AllSky_DemoEnvironment.obj-517e0ecaef3d3085c5ea80296dd6b1d8.mesh"
+
+[deps]
+
+files=[ "res://.import/AllSky_DemoEnvironment.obj-517e0ecaef3d3085c5ea80296dd6b1d8.mesh" ]
+
+source_file="res://AllSkyFree_Skyboxes/AllSky_DemoEnvironment.obj"
+dest_files=[ "res://.import/AllSky_DemoEnvironment.obj-517e0ecaef3d3085c5ea80296dd6b1d8.mesh", "res://.import/AllSky_DemoEnvironment.obj-517e0ecaef3d3085c5ea80296dd6b1d8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
