@@ -1,7 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://AllSkyFree_Skyboxes/AllSky_Space_AnotherPlanet Equirect.png" type="Texture" id=1]
+[ext_resource path="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_AnotherPlanet_Equirect.png" type="Texture" id=1]
 [ext_resource path="res://AllSkyFree_DemoLandsacpe.tscn" type="PackedScene" id=2]
+
+
 
 [sub_resource type="PanoramaSky" id=1]
 panorama = ExtResource( 1 )

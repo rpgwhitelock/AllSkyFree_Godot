@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cold Night Equirect.png-ec8d0977b00961618e331cbaf336c8fe.stex"
+path="res://.import/AllSkyFree_Sky_CartoonNightSky_Equirect.png-5ac3a69a18b8ec50aa605f90cb0c1a0a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Cold Night Equirect.png"
-dest_files=[ "res://.import/Cold Night Equirect.png-ec8d0977b00961618e331cbaf336c8fe.stex" ]
+source_file="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_CartoonNightSky_Equirect.png"
+dest_files=[ "res://.import/AllSkyFree_Sky_CartoonNightSky_Equirect.png-5ac3a69a18b8ec50aa605f90cb0c1a0a.stex" ]
 
 [params]
 

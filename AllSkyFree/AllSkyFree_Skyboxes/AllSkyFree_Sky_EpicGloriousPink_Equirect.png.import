@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Epic_BlueSunset_EquiRect_flat.png-9ee2cf85581b81e7c79fee916b5284f7.stex"
+path="res://.import/AllSkyFree_Sky_EpicGloriousPink_Equirect.png-7418db21a2321ad728045501cbd7b152.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Epic_BlueSunset_EquiRect_flat.png"
-dest_files=[ "res://.import/Epic_BlueSunset_EquiRect_flat.png-9ee2cf85581b81e7c79fee916b5284f7.stex" ]
+source_file="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_EpicGloriousPink_Equirect.png"
+dest_files=[ "res://.import/AllSkyFree_Sky_EpicGloriousPink_Equirect.png-7418db21a2321ad728045501cbd7b152.stex" ]
 
 [params]
 

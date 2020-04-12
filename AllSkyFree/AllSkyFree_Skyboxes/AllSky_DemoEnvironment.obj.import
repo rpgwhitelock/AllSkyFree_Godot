@@ -15,4 +15,5 @@ dest_files=[ "res://.import/AllSky_DemoEnvironment.obj-517e0ecaef3d3085c5ea80296
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true
