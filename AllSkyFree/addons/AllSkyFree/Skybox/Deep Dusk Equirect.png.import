@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Deep Dusk Equirect.png-5629c6aba939042dd04de7767e256c61.stex"
+path="res://.import/Deep Dusk Equirect.png-73253df9c852f75da069b013fbac2c20.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/AllSkyFree/Skybox/Deep Dusk Equirect.png"
-dest_files=[ "res://.import/Deep Dusk Equirect.png-5629c6aba939042dd04de7767e256c61.stex" ]
+source_file="res://Skybox/Deep Dusk Equirect.png"
+dest_files=[ "res://.import/Deep Dusk Equirect.png-73253df9c852f75da069b013fbac2c20.stex" ]
 
 [params]
 

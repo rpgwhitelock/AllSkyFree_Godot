@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Epic_GloriousPink_EquiRect.png-564de9592786c7c732c2199a77b8153e.stex"
+path="res://.import/Epic_GloriousPink_EquiRect.png-589fe6180c60c3bde56b80440e2ae934.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/AllSkyFree/Skybox/Epic_GloriousPink_EquiRect.png"
-dest_files=[ "res://.import/Epic_GloriousPink_EquiRect.png-564de9592786c7c732c2199a77b8153e.stex" ]
+source_file="res://Skybox/Epic_GloriousPink_EquiRect.png"
+dest_files=[ "res://.import/Epic_GloriousPink_EquiRect.png-589fe6180c60c3bde56b80440e2ae934.stex" ]
 
 [params]
 

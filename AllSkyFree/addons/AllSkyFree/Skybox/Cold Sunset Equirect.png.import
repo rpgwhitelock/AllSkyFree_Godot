@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cold Sunset Equirect.png-57cc70d56bd00cbb2803185430cbd53c.stex"
+path="res://.import/Cold Sunset Equirect.png-674c8241188aa4dd15ed84696349b55f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/AllSkyFree/Skybox/Cold Sunset Equirect.png"
-dest_files=[ "res://.import/Cold Sunset Equirect.png-57cc70d56bd00cbb2803185430cbd53c.stex" ]
+source_file="res://Skybox/Cold Sunset Equirect.png"
+dest_files=[ "res://.import/Cold Sunset Equirect.png-674c8241188aa4dd15ed84696349b55f.stex" ]
 
 [params]
 
