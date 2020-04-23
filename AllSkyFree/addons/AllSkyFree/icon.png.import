@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cartoon Base NightSky Equirect.png-b63f5c7f8441aaada5c4364a0b2096cb.stex"
+path="res://.import/icon.png-9398d9036eb78bc776fd29c89386ba7b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Cartoon Base NightSky Equirect.png"
-dest_files=[ "res://.import/Cartoon Base NightSky Equirect.png-b63f5c7f8441aaada5c4364a0b2096cb.stex" ]
+source_file="res://addons/AllSkyFree/icon.png"
+dest_files=[ "res://.import/icon.png-9398d9036eb78bc776fd29c89386ba7b.stex" ]
 
 [params]
 

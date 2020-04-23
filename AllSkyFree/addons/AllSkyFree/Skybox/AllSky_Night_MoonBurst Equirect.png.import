@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/AllSky_Space_AnotherPlanet Equirect.png-c884b097444fec20dd258efd16b2b74f.stex"
+path="res://.import/AllSky_Night_MoonBurst Equirect.png-429673178229cdea3032c86267f34656.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/AllSky_Space_AnotherPlanet Equirect.png"
-dest_files=[ "res://.import/AllSky_Space_AnotherPlanet Equirect.png-c884b097444fec20dd258efd16b2b74f.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/AllSky_Night_MoonBurst Equirect.png"
+dest_files=[ "res://.import/AllSky_Night_MoonBurst Equirect.png-429673178229cdea3032c86267f34656.stex" ]
 
 [params]
 

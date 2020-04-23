@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sky_Day_BlueSky_Equirect.png-e0289179b4f8b177da6dbcae2f24bc79.stex"
+path="res://.import/AllSky_Overcast4_Low.png-93d1754fbc564e78948dda44b3c5773d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Sky_Day_BlueSky_Equirect.png"
-dest_files=[ "res://.import/Sky_Day_BlueSky_Equirect.png-e0289179b4f8b177da6dbcae2f24bc79.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/AllSky_Overcast4_Low.png"
+dest_files=[ "res://.import/AllSky_Overcast4_Low.png-93d1754fbc564e78948dda44b3c5773d.stex" ]
 
 [params]
 

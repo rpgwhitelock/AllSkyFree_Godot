@@ -1,7 +1,6 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://AllSkyFree_Skyboxes/AllSky_DemoEnvironment.obj" type="ArrayMesh" id=1]
-
+[ext_resource path="res://addons/AllSkyFree/Skybox/AllSky_DemoEnvironment.obj" type="ArrayMesh" id=1]
 
 [sub_resource type="VisualShaderNodeColorConstant" id=1]
 output_port_for_preview = 0
@@ -19,10 +18,8 @@ void vertex() {
 
 void fragment() {
 // Color:2
-	vec3 n_out2p0;
-	float n_out2p1;
-	n_out2p0 = vec3(0.496094,0.496094,0.496094);
-	n_out2p1 = 1.000000;
+	vec3 n_out2p0 = vec3(0.496094, 0.496094, 0.496094);
+	float n_out2p1 = 1.000000;
 
 // Output:0
 	ALBEDO = n_out2p0;
@@ -62,18 +59,14 @@ void vertex() {
 
 void fragment() {
 // Color:2
-	vec3 n_out2p0;
-	float n_out2p1;
-	n_out2p0 = vec3(1.000000,1.000000,1.000000);
-	n_out2p1 = 1.000000;
+	vec3 n_out2p0 = vec3(1.000000, 1.000000, 1.000000);
+	float n_out2p1 = 1.000000;
 
 // Scalar:3
-	float n_out3p0;
-	n_out3p0 = 1.000000;
+	float n_out3p0 = 1.000000;
 
 // Scalar:4
-	float n_out4p0;
-	n_out4p0 = 0.000000;
+	float n_out4p0 = 0.000000;
 
 // Output:0
 	ALBEDO = n_out2p0;
@@ -108,4 +101,3 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 188.305 )
 mesh = ExtResource( 1 )
 material/0 = SubResource( 3 )
 material/1 = SubResource( 8 )
-

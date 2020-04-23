@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/AllSky_Night_MoonBurst Equirect.png-ef382ec8b0e9e1a17f52126f11ab0c1e.stex"
+path="res://.import/Cold Night Equirect.png-25b4da47da11ef5802c2a8055f2c7dca.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/AllSky_Night_MoonBurst Equirect.png"
-dest_files=[ "res://.import/AllSky_Night_MoonBurst Equirect.png-ef382ec8b0e9e1a17f52126f11ab0c1e.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/Cold Night Equirect.png"
+dest_files=[ "res://.import/Cold Night Equirect.png-25b4da47da11ef5802c2a8055f2c7dca.stex" ]
 
 [params]
 

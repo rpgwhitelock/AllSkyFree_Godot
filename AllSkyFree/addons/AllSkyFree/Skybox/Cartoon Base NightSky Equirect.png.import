@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/AllSky_Overcast4_Low.png-ee11c9c2b0459a0e2d0f5530b362dcc1.stex"
+path="res://.import/Cartoon Base NightSky Equirect.png-5828affef1f957f83a8819ecd11e8193.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/AllSky_Overcast4_Low.png"
-dest_files=[ "res://.import/AllSky_Overcast4_Low.png-ee11c9c2b0459a0e2d0f5530b362dcc1.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/Cartoon Base NightSky Equirect.png"
+dest_files=[ "res://.import/Cartoon Base NightSky Equirect.png-5828affef1f957f83a8819ecd11e8193.stex" ]
 
 [params]
 
