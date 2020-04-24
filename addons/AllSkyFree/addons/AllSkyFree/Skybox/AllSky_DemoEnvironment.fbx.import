@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/AllSky_DemoEnvironment.fbx-1b6f0478e166993584c9da6c5d8063a7.scn"
+path="res://.import/AllSky_DemoEnvironment.fbx-45089ce2b4c443ddcd9244e0841455fd.scn"
 
 [deps]
 
-source_file="res://Skybox/AllSky_DemoEnvironment.fbx"
-dest_files=[ "res://.import/AllSky_DemoEnvironment.fbx-1b6f0478e166993584c9da6c5d8063a7.scn" ]
+source_file="res://addons/AllSkyFree/Skybox/AllSky_DemoEnvironment.fbx"
+dest_files=[ "res://.import/AllSky_DemoEnvironment.fbx-45089ce2b4c443ddcd9244e0841455fd.scn" ]
 
 [params]
 

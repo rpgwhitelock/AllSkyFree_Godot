@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cold Night Equirect.png-e0163994397f5a7f65879e51dfe1c6b9.stex"
+path="res://.import/Cartoon Base NightSky Equirect.png-5828affef1f957f83a8819ecd11e8193.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Skybox/Cold Night Equirect.png"
-dest_files=[ "res://.import/Cold Night Equirect.png-e0163994397f5a7f65879e51dfe1c6b9.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/Cartoon Base NightSky Equirect.png"
+dest_files=[ "res://.import/Cartoon Base NightSky Equirect.png-5828affef1f957f83a8819ecd11e8193.stex" ]
 
 [params]
 

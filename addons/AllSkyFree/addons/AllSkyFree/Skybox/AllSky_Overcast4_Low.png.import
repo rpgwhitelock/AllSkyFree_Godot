@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Epic_GloriousPink_EquiRect.png-589fe6180c60c3bde56b80440e2ae934.stex"
+path="res://.import/AllSky_Overcast4_Low.png-93d1754fbc564e78948dda44b3c5773d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Skybox/Epic_GloriousPink_EquiRect.png"
-dest_files=[ "res://.import/Epic_GloriousPink_EquiRect.png-589fe6180c60c3bde56b80440e2ae934.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/AllSky_Overcast4_Low.png"
+dest_files=[ "res://.import/AllSky_Overcast4_Low.png-93d1754fbc564e78948dda44b3c5773d.stex" ]
 
 [params]
 

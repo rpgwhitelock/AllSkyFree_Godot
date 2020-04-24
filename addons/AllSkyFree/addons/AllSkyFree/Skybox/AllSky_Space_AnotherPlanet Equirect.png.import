@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sky_Day_BlueSky_Equirect.png-156a1541d478dab514493d06e40ad61e.stex"
+path="res://.import/AllSky_Space_AnotherPlanet Equirect.png-b17309be0194fdd86e6d84313e46d706.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Skybox/Sky_Day_BlueSky_Equirect.png"
-dest_files=[ "res://.import/Sky_Day_BlueSky_Equirect.png-156a1541d478dab514493d06e40ad61e.stex" ]
+source_file="res://addons/AllSkyFree/Skybox/AllSky_Space_AnotherPlanet Equirect.png"
+dest_files=[ "res://.import/AllSky_Space_AnotherPlanet Equirect.png-b17309be0194fdd86e6d84313e46d706.stex" ]
 
 [params]
 

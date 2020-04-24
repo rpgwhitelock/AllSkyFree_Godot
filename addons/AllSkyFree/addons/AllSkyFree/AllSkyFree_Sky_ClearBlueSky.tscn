@@ -1,6 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Skybox/Sky_Day_BlueSky_Equirect.png" type="Texture" id=2]
+[ext_resource path="res://addons/AllSkyFree/Skybox/Sky_Day_BlueSky_Equirect.png" type="Texture" id=2]
+
 
 
 [sub_resource type="PanoramaSky" id=1]
