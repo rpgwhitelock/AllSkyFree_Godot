@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cartoon Base NightSky Equirect.png-b63f5c7f8441aaada5c4364a0b2096cb.stex"
+path="res://.import/AllSkyFree_Sky_MoonBurst_Equirect.png-98ecee349bb6e92f2288a37f7f315ad6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Cartoon Base NightSky Equirect.png"
-dest_files=[ "res://.import/Cartoon Base NightSky Equirect.png-b63f5c7f8441aaada5c4364a0b2096cb.stex" ]
+source_file="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_MoonBurst_Equirect.png"
+dest_files=[ "res://.import/AllSkyFree_Sky_MoonBurst_Equirect.png-98ecee349bb6e92f2288a37f7f315ad6.stex" ]
 
 [params]
 

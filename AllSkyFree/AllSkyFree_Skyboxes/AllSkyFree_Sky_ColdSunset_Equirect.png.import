@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sky_Day_BlueSky_Equirect.png-e0289179b4f8b177da6dbcae2f24bc79.stex"
+path="res://.import/AllSkyFree_Sky_ColdSunset_Equirect.png-7590958a1bc7ac195fcfb56bc6d1df88.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Sky_Day_BlueSky_Equirect.png"
-dest_files=[ "res://.import/Sky_Day_BlueSky_Equirect.png-e0289179b4f8b177da6dbcae2f24bc79.stex" ]
+source_file="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_ColdSunset_Equirect.png"
+dest_files=[ "res://.import/AllSkyFree_Sky_ColdSunset_Equirect.png-7590958a1bc7ac195fcfb56bc6d1df88.stex" ]
 
 [params]
 

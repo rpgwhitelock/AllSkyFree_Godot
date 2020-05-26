@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://AllSkyFree_Skyboxes/Epic_GloriousPink_EquiRect.png" type="Texture" id=1]
+[ext_resource path="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_EpicGloriousPink_Equirect.png" type="Texture" id=1]
 [ext_resource path="res://AllSkyFree_DemoLandsacpe.tscn" type="PackedScene" id=2]
 
 [sub_resource type="PanoramaSky" id=1]
@@ -41,4 +41,3 @@ light_specular = 1.0
 shadow_enabled = true
 
 [node name="AllSkyFree_DemoLandscape" parent="." instance=ExtResource( 2 )]
-

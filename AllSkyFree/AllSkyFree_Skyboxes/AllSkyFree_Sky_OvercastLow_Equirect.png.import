@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Deep Dusk Equirect.png-a732fb967d7599ca3d0ae5157f5d1042.stex"
+path="res://.import/AllSkyFree_Sky_OvercastLow_Equirect.png-7e8d9fac8e05c5036dc60378ce6c82f0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AllSkyFree_Skyboxes/Deep Dusk Equirect.png"
-dest_files=[ "res://.import/Deep Dusk Equirect.png-a732fb967d7599ca3d0ae5157f5d1042.stex" ]
+source_file="res://AllSkyFree_Skyboxes/AllSkyFree_Sky_OvercastLow_Equirect.png"
+dest_files=[ "res://.import/AllSkyFree_Sky_OvercastLow_Equirect.png-7e8d9fac8e05c5036dc60378ce6c82f0.stex" ]
 
 [params]
 
