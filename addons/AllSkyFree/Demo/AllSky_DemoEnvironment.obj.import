@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/AllSky_DemoEnvironment.obj-ca205ef31921fd2a161f61aa19b76b46.mesh"
+
+[deps]
+
+files=[ "res://.import/AllSky_DemoEnvironment.obj-ca205ef31921fd2a161f61aa19b76b46.mesh" ]
+
+source_file="res://addons/AllSkyFree/Demo/AllSky_DemoEnvironment.obj"
+dest_files=[ "res://.import/AllSky_DemoEnvironment.obj-ca205ef31921fd2a161f61aa19b76b46.mesh", "res://.import/AllSky_DemoEnvironment.obj-ca205ef31921fd2a161f61aa19b76b46.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

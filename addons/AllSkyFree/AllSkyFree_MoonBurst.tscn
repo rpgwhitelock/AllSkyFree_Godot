@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/AllSkyFree/Skyboxes/AllSkyFree_Sky_MoonBurst_Equirect.png" type="Texture" id=1]
+
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+fog_enabled = true
+fog_color = Color( 0.0745098, 0.0901961, 0.117647, 1 )
+fog_sun_color = Color( 0.564706, 0.729412, 0.92549, 1 )
+fog_sun_amount = 0.13
+fog_depth_begin = 0.0
+fog_depth_end = 1024.7
+fog_depth_curve = 0.615572
+fog_height_min = 148.2
+fog_height_max = -171.5
+ssao_radius = 8.1
+ssao_intensity = 4.3
+ssao_radius2 = 40.7
+ssao_intensity2 = 14.6
+ssao_bias = 0.059
+ssao_color = Color( 0.180392, 0.207843, 0.25098, 1 )
+glow_enabled = true
+glow_intensity = 1.86
+glow_strength = 0.87
+glow_bloom = 0.02
+glow_hdr_threshold = 0.44
+glow_bicubic_upscale = true
+
+[node name="AllSkyFree_MoonBurst" type="Spatial"]
+
+[node name="WorldEnvironment_MoonBurst" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="DirectionalLight_MoonBurst" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.849579, 0.527461, 0, -0.527461, 0.849579, 0, 26.5368, 0 )
+light_color = Color( 0.52549, 0.619608, 0.733333, 1 )
+light_energy = 0.32
+light_specular = 1.0
+shadow_enabled = true

@@ -1,6 +1,6 @@
 # AllSky Free : Godot Edition
 
-![Logo](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/AllSkyGodotCover.png)
+![Logo](Screenshots/AllSkyGodotCover.png)
 
 ## About
 
@@ -12,7 +12,7 @@ I hope you find them useful!
 
 [Unity Asset Store : AllSky](https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-200-sky-skybox-set-10109) 
 	
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/AllSkyFreeGodotScreenshot.png)
+![Screenshot](Screenshots/AllSkyFreeGodotScreenshot.png)
 
 ## Technical
 
@@ -35,24 +35,22 @@ Currently working on various indie game & personal projects.
 ## Screenshots
 
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0003_AllSkyFree_Screen_06.jpg)
+![Screenshot](Screenshots/_0003_AllSkyFree_Screen_06.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0004_AllSkyFree_Screen_06.jpg)
+![Screenshot](Screenshots/_0004_AllSkyFree_Screen_06.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0008_AllSkyFree_Screen_02.jpg)
+![Screenshot](Screenshots/_0008_AllSkyFree_Screen_02.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0006_AllSkyFree_Screen_04.jpg)
+![Screenshot](Screenshots/_0006_AllSkyFree_Screen_04.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0005_AllSkyFree_Screen_05.jpg)
+![Screenshot](Screenshots/_0005_AllSkyFree_Screen_05.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0002_AllSkyFree_Screen_07.jpg)
+![Screenshot](Screenshots/_0002_AllSkyFree_Screen_07.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0007_AllSkyFree_Screen_03.jpg)
+![Screenshot](Screenshots/_0007_AllSkyFree_Screen_03.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0009_AllSkyFree_Screen_01.jpg)
+![Screenshot](Screenshots/_0009_AllSkyFree_Screen_01.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0000_AllSkyFree_Screen_09.jpg)
+![Screenshot](Screenshots/_0000_AllSkyFree_Screen_09.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/rpgwhitelock/AllSkyFree_Godot/master/Screenshots/_0001_AllSkyFree_Screen_08.jpg)
-
-
+![Screenshot](Screenshots/_0001_AllSkyFree_Screen_08.jpg)

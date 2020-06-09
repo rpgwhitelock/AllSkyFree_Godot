@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/AllSkyFree/Skyboxes/AllSkyFree_Sky_DeepDusk_Equirect.png" type="Texture" id=1]
+
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_energy = 0.77
+fog_enabled = true
+fog_color = Color( 0.14902, 0.113725, 0.145098, 1 )
+fog_sun_color = Color( 0.541176, 0.211765, 0.160784, 1 )
+fog_sun_amount = 0.11
+fog_depth_begin = 98.8
+fog_depth_end = 1444.5
+fog_depth_curve = 0.466516
+fog_transmit_enabled = true
+fog_transmit_curve = 0.659754
+fog_height_enabled = true
+fog_height_min = 148.2
+fog_height_max = -48.0
+fog_height_curve = 4.59481
+ssao_radius = 8.1
+ssao_intensity = 4.3
+ssao_radius2 = 40.7
+ssao_intensity2 = 14.6
+ssao_bias = 0.059
+ssao_color = Color( 0.180392, 0.207843, 0.25098, 1 )
+glow_enabled = true
+glow_intensity = 1.86
+glow_strength = 0.87
+glow_bloom = 0.02
+glow_hdr_threshold = 0.44
+glow_bicubic_upscale = true
+
+[node name="AllSkyFree_DeepDusk" type="Spatial"]
+
+[node name="WorldEnvironment_DeepDusk" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="DirectionalLight_DeepDusk" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.986072, 0.166321, 0, -0.166321, 0.986072, 0, 26.5368, 0 )
+light_color = Color( 0.521569, 0.203922, 0.160784, 1 )
+light_energy = 0.41
+light_specular = 1.0
+shadow_enabled = true
