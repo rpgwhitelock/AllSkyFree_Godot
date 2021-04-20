@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/AllSkyFree/AllSkyFree_EpicBlueSunset.tscn" type="PackedScene" id=1]
+[ext_resource path="res://addons/AllSkyFree/Demo/AllSkyFree_DemoLandsacpe.tscn" type="PackedScene" id=2]
+
+[node name="AllSkyFree_Sky_EpicBlueSunset" type="Node"]
+
+[node name="AllSkyFree_DemoLandscape" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05829, -1.54366, -27.2202 )
+
+[node name="AllSkyFree_EpicBlueSunset" parent="." instance=ExtResource( 1 )]

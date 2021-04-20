@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/AllSkyFree/Skyboxes/AllSkyFree_Sky_OvercastLow_Equirect.png" type="Texture" id=1]
+
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_energy = 0.76
+fog_enabled = true
+fog_color = Color( 0.407843, 0.396078, 0.388235, 1 )
+fog_sun_color = Color( 0.847059, 0.823529, 0.796078, 1 )
+fog_sun_amount = 0.56
+fog_depth_begin = 0.0
+fog_depth_end = 1197.5
+fog_depth_curve = 2.2974
+fog_transmit_enabled = true
+fog_height_enabled = true
+fog_height_min = 197.6
+fog_height_max = -171.5
+ssao_radius = 8.1
+ssao_intensity = 4.3
+ssao_radius2 = 40.7
+ssao_intensity2 = 14.6
+ssao_bias = 0.059
+ssao_color = Color( 0.180392, 0.207843, 0.25098, 1 )
+glow_enabled = true
+glow_intensity = 1.86
+glow_strength = 0.87
+glow_bloom = 0.02
+glow_hdr_threshold = 0.44
+glow_bicubic_upscale = true
+
+[node name="AllSkyFree_OvercastLow" type="Spatial"]
+
+[node name="WorldEnvironment_OvercastLow" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="DirectionalLight_OvercastLow" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.849579, 0.527461, 0, -0.527461, 0.849579, 0, 26.5368, 0 )
+light_color = Color( 0.654902, 0.647059, 0.635294, 1 )
+light_energy = 0.18
+light_specular = 1.0
+shadow_enabled = true
